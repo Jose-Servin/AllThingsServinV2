@@ -11,9 +11,18 @@ Dark: #011126
 Dark Blue: #042F40
 Light Blue: #3c6373 
 
-
-
 */
+
+:root {
+  --text-dark: #343434;
+  --text-gray: #5a6782; /* #adbdcc */
+  --text-white: #e5e5f7;
+  --text-blue: #307fc8;
+  --body-font: "Inter", sans-serif;
+  --heading-font: "Sora", sans-serif;
+  --logo-font: "Permanent Marker", cursive;
+}
+
 * {
   margin: 0;
   padding: 0;
