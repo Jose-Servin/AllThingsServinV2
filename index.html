@@ -4,39 +4,43 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Sora:wght@200;300;400;500;600&family=Permanent+Marker&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600&family=Fira+Code:wght@300;400;500;700&family=Sora:wght@200;300;400;500;600&family=Permanent+Marker&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="./styles.css" />
     <title>AllThingsServinV2</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <a href="#" id="logo">JS</a>
-        <ul class="navbar-items">
-          <li><a href="">About</a></li>
-          <li><a href="">Experience</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
-          <li><a href="">Resume</a></li>
-        </ul>
-      </nav>
-    </header>
+    <nav class="navbar">
+      <a href="#" id="logo">JS</a>
+      <ul class="navbar-links">
+        <li><a href="">About</a></li>
+        <li><a href="">Experience</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">Resume</a></li>
+      </ul>
+    </nav>
     <main>
-      <section>
-        <div class="hero-content">
-          <h2>Jose Servin</h2>
-          <h1>AllThingsServin</h1>
-          <span
-            >The Main Branch of all projects I've built, lessons I've learned
-            and resources I want to share.
-          </span>
-          <button class="btn-small">What I've Built &lt;&sol;&gt;</button>
+      <section class="standard-container hero-section">
+        <div class="hero">
+          <h2 id="username">Jose Servin</h2>
+          <h1 id="page-title">AllThingsServin</h1>
+          <p id="page-intro">
+            The Main Branch of all projects I've built, lessons I've learned and
+            resources I want to share.
+          </p>
         </div>
+        <button class="btn-small">What I've Built &lt;&sol;&gt;</button>
+        <!-- <div class="vertical-line vl-left"></div> -->
+        <!-- <div class="right-vertical-container">
+          <div class="line"></div>
+          <span class="vertical-text">Servinjose96@gmail.com</span>
+        </div> -->
       </section>
-      <section class="foo"></section>
+      <section class="standard-container">
+        <h2 class="section-heading">01. About Me</h2>
+      </section>
     </main>
-    <footer></footer>
   </body>
 </html>
