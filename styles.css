@@ -17,6 +17,7 @@ Light Blue: #3c6373
   --text-dark: #314163;
   --text-gray: #5a6782; /* #adbdcc */
   --text-white: #e5e5f7;
+  --text-light: #fdf1d4;
   --light-blue: #307fc8;
   --dark-blue: #0a2540;
   --bg-white: #ffffff;
@@ -52,7 +53,8 @@ html {
 body {
   font-family: var(--body-font);
   background-color: #e5e5e5;
-  color: var(--text-dark);
+  background-color: #2a2d3e;
+  color: var(--text-light);
   width: 100%;
   padding: var(--spacing-l) 0 0 0;
   display: flex;
@@ -219,6 +221,7 @@ p {
   font-weight: 500;
   font-size: 1.8rem;
   color: var(--text-gray);
+  color: #74a7d8;
 }
 
 .navbar-links a:hover {
@@ -267,6 +270,7 @@ p {
 #page-intro {
   font-size: 1.8rem;
   color: #5a6782;
+  color: #dddddd;
   margin-bottom: 3rem;
   font-weight: 400;
 }
